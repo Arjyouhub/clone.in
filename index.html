@@ -3,76 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>facebook</title>
+    <title>Facebook</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="fb.css" type="text/css">
 </head>
-<body>
-    <div>
-        <div class="main-body">
-    <div class="left-corner">
-      <div class="logo">
-        <img src="	https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="">
-
-      </div class=parah1 >
-      <h2 class="parah2">Facebook helps you connect and share<br> with the people in your life.</h2>
-        
-
-    </div>
-    <div class="right-corner">
-        <div class="box">
-            <div  class="box2">
-                <form class="form" id="Login-form">
-            <input  name="Email" class="email" type="text" placeholder="Email adressor phone number">
-            <br>
-            <br>
-           <input name="password" class="Password" type="Password" placeholder="Password">
-            <br>
-            <br>
-
-            <input class="button" type="button" value="Log in">
-            <br>
-            <br>
-
-            <a class="forgot">Forgot password?</a>
-             <br>
-             <br>
-             <hr class="line">
-             <br>
-             <br>
-             <input class="create" type="button" value="Create new account">
-                
-        </form>
-       
-
+<body class="bg-light">
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="row w-100">
+            <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" class="mb-3" width="250" alt="Facebook Logo">
+                <h2 class="fw-light fs-4">Facebook helps you connect and share<br> with the people in your life.</h2>
             </div>
-       
+            <div class="col-lg-6 d-flex justify-content-center">
+                <div class="card p-4 shadow-sm" style="max-width: 400px; width: 100%;">
+                    <form id="Login-form">
+                        <input name="Email" class="form-control mb-3" type="text" placeholder="Email address or phone number">
+                        <input name="password" class="form-control mb-3" type="password" placeholder="Password">
+                        <button class="btn btn-primary w-100 mb-3">Log in</button>
+                        <div class="text-center mb-3">
+                            <a href="#" class="text-decoration-none">Forgot password?</a>
+                        </div>
+                        <hr>
+                        <button class="btn btn-success w-100">Create new account</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-12 text-center mt-4">
+                <a href="#" class="fw-bold">Create a Page</a> for a celebrity, brand or business.
+            </div>
         </div>
-        <br>
-        <a class="parah3">Create a Page </a> <a class="parah4" > a celebrity, brand or business.</a>
-
     </div>
-    <div class="footer">
-        <div class="footer2">
-       <p class="lang">
-        
-        English(UK) &nbsp;മലയാളം &nbsp; தமிழ்  &nbsp;ಕನ್ನಡ&nbsp;  हिन्दी &nbsp; اردو &nbsp; বাংলা&nbsp;  తెలుగు&nbsp;  Español &nbsp; Español &nbsp; Português (Brasil)  &nbsp;Français (France)
-
-       <input class="plus" type="button" value="+">        
-        </p>
-        <hr class="line">
-        </div>
-        <div class="last-footer">
-         <p class="last-options"> SignUp Login &nbsp;&nbsp;Messenger &nbsp;&nbsp;FacebookLite &nbsp;&nbsp;Video &nbsp;&nbsp;Places&nbsp;&nbsp;Games&nbsp;&nbsp;Marketplace&nbsp;&nbsp;Meta Pay&nbsp;&nbsp;StoreMeta&nbsp;&nbsp;Meta Quest&nbsp;&nbsp;Ray-Ban Meta&nbsp;&nbsp;Meta AI&nbsp;&nbsp; <br>Instagram &nbsp;&nbsp;Threads&nbsp;&nbsp;Fundraisers&nbsp;&nbsp;Services&nbsp;&nbsp;Voting Information Centre&nbsp;&nbsp;Privacy Policy&nbsp;&nbsp;Privacy Centre&nbsp;&nbsp;Groups&nbsp;&nbsp;About&nbsp;&nbsp;Create ad &nbsp;&nbsp;Create Page&nbsp;&nbsp;Developers&nbsp;&nbsp; <br>Careers&nbsp;&nbsp;Cookies&nbsp;&nbsp;AdChoices&nbsp;&nbsp;Terms&nbsp;&nbsp; Help &nbsp;&nbsp;Contact uploading and non-users 
-            &nbsp;<br>
-            <br>
-             Meta © 2024</p>
-
-        </div>
-
-    </div>
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js" ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="fb.js"></script>
-    
 </body>
 </html>
